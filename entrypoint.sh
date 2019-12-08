@@ -1,7 +1,4 @@
 #!/bin/bash
-mkdir 1
 
-if [ $? == 0 ] then
 echo "Starting nginx"
-nginx -g 'daemon off;'
-fi
+echo <h1>"$VALUE"</h1>
