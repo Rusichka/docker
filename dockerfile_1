@@ -1,0 +1,8 @@
+FROM Alpine
+RUN apk update --no-cache && apk add git
+
+CMD ["https://github.com/lishafaev/test-codedeploy.git"]
+
+WORKDIR /container_folder
+
+ENTRYPOINT ["git", "clone"]
